@@ -1,0 +1,144 @@
+body {
+    
+    color:grey;
+    border: 3px solid black;
+    border-radius:20px;
+    margin-left: 25%;
+    width:50%;
+    
+  }
+
+  img {
+    border-radius: 50%;
+    height:30%;
+    width:30%;
+  }
+  .Info{  
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  li{
+     list-style-type:square;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     padding-bottom: 5px;
+     margin-left: 13%;
+  }
+
+  .container {
+    width: 100%;
+    border-radius: 20px;
+ }
+ .HTML, .CSS, .Python, .C,.Data_Structures {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 2px;
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid black;
+    height: 30px;
+}
+
+ .HTML {
+    width: 90%;
+    background-color: #469147;
+ }
+ .CSS {
+    width: 80%;
+    background-color: #7cc592;
+ }
+ .Python {
+    width: 100%;
+    background-color: rgb(1, 54, 1);
+ }
+ .C {
+    width: 20%;
+    background-color: #8d4141;
+ }
+ .Data_Structures{
+    width: 100%;
+    background-color: rgb(1, 54, 1);
+ }
+.l_container{
+  width:20%;
+  border: 3px solid black;
+  height: 20px;
+}
+
+.l_container .A_bar {
+  height: 100%;
+  width: 100%;
+  background-color: #033316;
+  animation: fill-A-bar 3s 1;
+}
+.l_container .E_bar {
+   height: 100%;
+   width: 100%;
+   background-color: #5db681;
+   animation: fill-E-bar 3s 1;
+ }
+ .l_container .F_bar {
+   height: 100%;
+   width: 100%;
+   background-color: #8caa47;
+   animation: fill-F-bar 3s 1;
+ }
+ .l_container .G_bar {
+   height: 100%;
+   width: 100%;
+   background-color: #b42525;
+   animation: fill-G-bar 3s 1;
+
+
+ }
+@keyframes fill-A-bar {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+@keyframes fill-E-bar {
+   from {width: 0%;}
+   to {width: 70%;}
+ }
+ @keyframes fill-F-bar {
+   from {width: 0%;}
+   to {width: 50%;}
+ }
+ @keyframes fill-G-bar {
+   from {width: 0%;}
+   to {width: 10%;}
+ }
+ thead {
+   background-color: #333;
+   color: white;
+ }
+ .mod{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   margin-left:13%;
+ }
+.mod tbody th{
+    background-color:white;
+ }
+ h3{
+    font-style:italic;
+    font-size:150%;
+    text-decoration:underline;
+ }
+
+ .box{
+   background-color:#22292B;
+  border: 3px solid black;
+  color:grey;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 20px;
+
+ }
+ .container_color{
+   background-color: rgb(27, 26, 26);
+   border-radius: 20px;
+ }
